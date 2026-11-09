@@ -9,4 +9,4 @@ Workshops (workshops.html)
 Collaborations (collaborations.html)
 
 Live link:
-https://jaydenh58.github.io/5-build/
+https://jaydenh58.github.io/5-Build/
