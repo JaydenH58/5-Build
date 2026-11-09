@@ -1,4 +1,4 @@
-/* CSS by Christina Carrasquilla, iteration by */
+/* CSS by Christina Carrasquilla, iteration by Jayden Hansen */
 
 /* ===== Color Palette ===== 
 
@@ -103,9 +103,30 @@ footer {
 }
 
 /* ===== Media Query (Medium) ===== */
-/* write a media query for a screen with at least 800px */
+@media screen and (min-width:817px){
+    body {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+    }
+    header, nav, footer {
+    grid-column: 1/-1;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+.card-row {
+    display: flex;
+
+}
+.card-row section{
+    width: 30%;
+}
+}
+
 /* change the body's grid template to 1fr 300px */
-/* target the header, nav, and footer and style their grid-column to 1/-1 */
-/* target the nav and display it flex, spaceed around */
-/* target the .card-row to display flex */
-/* target the sections in .card-row witha width for 30% */
+/* target the header, nav, and footer and style their grid-column to 1/-1 {Note from Jayden: Yeah this kinda sucks. But it is evidence that it changed so sure i guess}*/
+/* target the nav and display it flex, spaceed around 
+{Note from Jayden: ???? I mean it says it, so ok but personally I think it looks bad}*/
+/* target the .card-row to display flex {Note from Jayden: Didn't you want me to delete card row?}*/
+/* target the sections in .card-row with a width for 30% {Note from Jayden: more evidence it changed but it still kinda looks bad}*/
